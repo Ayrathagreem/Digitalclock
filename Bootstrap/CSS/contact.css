@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main_backround_1{
+	border:1px ;
+	height: 400px;
+	width: 100%;
+	background: -webkit-linear-gradient(#16b2f5,#c44dff);
+	
+
+	/*background: -webkit-linear-gradient(#ff00ff,#16b2f5);*/
+}
+.Navigation_1{
+	top: 0px;
+	position: sticky;
+}
+	.Details{
+
+		border: 1px #ecb3ff,#333;
+		background: -webkit-linear-gradient(#16b2f5,#0000);
+		padding: 15px;
+		text-align: center;
+		word-spacing: 80px;
+		word-spacing: 80px;
+		font-family: 'Alkatra', cursive;
+		font-family: 'Dancing Script', cursive;
+}
+	.Details a{
+		color: white;
+		text-decoration: none;
+		font-weight: bolder;
+		font-size: 20px
+}
+	.para h1{
+	padding-bottom: 10px;
+	justify-content: center;
+}
+	.para p{
+	display: inline-block;
+
+}
+#contents_card{
+	background-color: #000000;
+	padding:40px;
+	color: #fff;
+	border:1px;
+	/* display: flex; */
+	justify-content: center;
+	gap:25px;
+	height: 600px;
+	font-family: 'Pacifico', cursive;
+}
+/* .first {
+ 	width: 250px;
+	border:1px;
+	color: black;
+	background: -webkit-linear-gradient(#ff99e6,skyblue);
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 150px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 150px;
+	margin-top: 0px;
+	margin-left: 10px;
+	height: 150px;
+	text-align: center;
+	padding: 	30px;
+
+} */
+.con{
+	color: white;
+	padding-top: 100px;
+	font-size: 80px;
+	text-align: center;
+}
+#co{
+	padding: 40px;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Alkatra', cursive;
+	font-family: 'Dancing Script', cursive;
+	}
+.co input{
+	padding: 20px;
+	border-top: #c44dff;
+}
+.first{
+	text-align: center;
+	
+}
+input[type=text] {
+	width: 40%;
+	font-size: 15px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid rgb(248, 64, 13);
+	background: none;
+	color: white;
+  }
+  input:focus {
+	border-color: green;
+	outline: none
+	
+  }
+.first textarea{
+	margin-top: 20px;
+	width: 40%;
+}
+input{
+	padding-top: 20px;
+	
+}
+.end{
+	border: 1px #ffffff;
+}
+img{
+	width: 100%;
+	height: 20%;
+}
+.o{
+	position: absolute;
+	left: 590px;
+	padding: 7px;
+	background: orangered;
+	border-radius: 4px;
+	color: white;
+	margin-top: 20px;
+}

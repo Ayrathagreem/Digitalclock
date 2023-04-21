@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigationbar{
+    border: 1px;
+    background: -webkit-linear-gradient(rgb(0, 200, 255),rgb(240, 63, 93));
+    padding: 10px;
+    text-align: center;
+    word-spacing: 60px;
+   
+}
+.sec1{
+    text-decoration: none;
+}

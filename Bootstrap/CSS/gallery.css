@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    border:1px solid white;
+    height: 620px;
+    background: -webkit-linear-gradient(rgb(230, 74, 230),skyblue);
+    text-align: center;
+
+}
+.main h1{
+    margin-top: 250px;
+    font-size: 100px;
+    font-family: 'Alkatra', cursive;
+	font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+}

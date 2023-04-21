@@ -1,0 +1,22 @@
+*{
+    margin: 100px;
+    padding: 0;
+}
+#grandparent{
+    border: 1px solid red;
+    height: 280px;
+    width: 500px;
+    padding: 20px;
+}
+#parent{
+    border: 1px solid red;
+    height: 210px;
+    width: 430px;
+    padding: 20px;
+}
+#child{
+    border: 1px solid red;
+    height: 160px;
+    width: 360px;
+    padding: 20px;
+}
