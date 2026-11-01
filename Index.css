@@ -1,0 +1,48 @@
+
+
+.nav_box {
+            padding: 15px;
+            background-color: black;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            color: white;
+            cursor: pointer;
+            white-space: nowrap;
+ 
+            font-family: "Smooch Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-size: 18px;
+            font-style: normal;
+        }
+        
+        .logo {
+            background-image: url("./360-buds-logo-modern-purple.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            width: 100px;
+            height: 60px;
+            flex-shrink: 0;
+}
+
+
+        nav ul li:hover {
+            color: orange;
+        }
