@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
 
+    <script src="index.js" defer></script>
+
 </head>
 <body>
 
@@ -30,5 +32,20 @@
         </nav>
     </div>
 
+    <div class="banner">
+        <div class="slides">
+            <img src="360-buds-banner-light.png" alt="beautiful flower">
+            <img src="360-buds-banner-dark.png" alt="wedding flower">
+            <img src="360-buds-banner-blank.png" alt="Custom">
+        </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+    </div>
+
+    <div class="dots">
+        <span onclick="currentSlide(0)"></span>
+        <span onclick="currentSlide(1)"></span>
+    </div>
 </body>
 </html>
