@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="Index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+
+
+ <div id="navigation" class="navigation_box">
+        <nav class="nav_box">
+            <span class="logo"></span>
+            <ul>
+                <li>Home</li>
+                <li>Flowers</li>
+                <li>Garland</li>
+                <li>Wedding</li>
+                <li>Pooja Items</li>
+                <li>Custom Orders</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <div class="slides">
+            <img src="360-buds-banner-light.png" alt="beautiful flower">
+            <img src="360-buds-banner-dark.png" alt="wedding flower">
+            <img src="360-buds-banner-blank.png" alt="Custom">
+        </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            <button id="pauseBtn" onclick="toggleSlide()">⏸ Pause</button>
+
+    </div>
+
+    <div class="dots">
+        <span onclick="currentSlide(0)"></span>
+        <span onclick="currentSlide(1)"></span>
+        <span onclick="currentSlide(2)"></span>
+    </div>
+
+   
+<section class="product-section">
+
+    <h2 class="product-title">Our Garland Collection</h2>
+
+    <div class="product">
+
+        <div class="product-card">
+            <img src="./Product_image/Elegant Purple and White Floral Garland-1.png" alt="Purple and white garland">
+            <h3>Purple & White Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/Elegant Purple and White Floral Garland-2.png" alt="Purple and white floral garland">
+            <h3>Traditional Floral Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/Elegant Purple and White Flower Garland-3.png" alt="Chrysanthemum garland">
+            <h3>Chrysanthemum Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/Elegant Purple and White Wedding Garland-4.png" alt="Wedding garland">
+            <h3>Wedding Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/Elegant Red and White Wedding Garland.png" alt="Red and white garland">
+            <h3>Red Rose Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/rose-jasmine-garland-1.jpg" alt="Rose jasmine garland">
+            <h3>Rose Jasmine Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/rose-jasmine-garland-2.jpg" alt="Rose jasmine floral garland">
+            <h3>Rose Floral Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/rose-jasmine-garland-3.jpg" alt="Jasmine garland">
+            <h3>Jasmine Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/wedding-garland-mixed-flowers.jpg" alt="Mixed flower garland">
+            <h3>Mixed Flower Garland</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="./Product_image/wedding-garland-rose-jasmine.jpg" alt="Wedding rose jasmine garland">
+            <h3>Wedding Rose Garland</h3>
+        </div>
+
+    </div>
+
+</section>
+
+        
+
+</body>
+</html>
